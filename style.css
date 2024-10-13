@@ -1,17 +1,93 @@
 body {
+    font-family: Roboto;
     margin: 0;
     display: flex;
     flex-flow: column nowrap;
 }
 
-.dark {
-    background-color: #1f2937;
+p {
+    margin: 0;
 }
 
-.white {
+button {
+    width: fit-content;
+    background-color: #3882f6;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 8px 24px;
+    border: 0;
+    flex: 0 0 0;
+}
+
+.dark {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.light {
     background-color: #fff;
 }
 
 .gray {
     background-color: #e5e7eb;
+}
+
+.dark, .light, .gray{
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+.box-inner {
+    display: flex;
+    gap: 16px;
+}
+
+.header{
+    font-size: 18px;
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header > a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-right: auto;
+}
+
+#main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.mb_48 {
+    margin-bottom: 48px;
+}
+
+.gap_16 {
+    gap: 16px;
+}
+
+.gap_32 {
+    gap: 32px;
 }
