@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.dark {
+    background-color: #1f2937;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.gray {
+    background-color: #e5e7eb;
+}
