@@ -120,16 +120,35 @@ figure {
     margin-bottom: 48px;
 }
 
-#logo {
+.logo {
     font-size: 24px;
     color: #f9faf8;
     margin-right: auto;
 }
 
-#main-text {
+.main-text {
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
+}
+
+.action {
+    border-radius: 8px;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5%;
+    background-color: #3882f6;
+    padding: 16px 64px;
+    margin: 48px 0px;
+}
+
+.btn2 {
+    min-width: fit-content;
+    flex-shrink: 0;
+    border: 3px solid white;
 }
 
 .mb_48 {
