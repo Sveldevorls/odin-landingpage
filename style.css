@@ -145,6 +145,10 @@ figure {
     margin: 48px 0px;
 }
 
+.footer {
+    margin: 24px 0px;
+}
+
 .btn2 {
     min-width: fit-content;
     flex-shrink: 0;
